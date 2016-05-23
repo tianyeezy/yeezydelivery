@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.ye.tianyeezydelivery.ChooseActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/choose1"/>
+    <TextView
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Fucking Brand"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+    <Spinner
+        android:paddingTop="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:entries="@array/ctype"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:spinnerMode="dropdown"
+
+        android:id="@+id/spinner1"
+    />
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Input Fucking Number"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/et"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="30dp"
+
+        />
+    <Button
+        android:id="@+id/bt"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="fucking check"/>
+</LinearLayout>
